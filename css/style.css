@@ -24,7 +24,9 @@ body {
 }
 
 .nav-row,
-.header-row {
+.header-row,
+.work-row,
+.row2 {
     display: inline-block;
     width: 100%;
 }
@@ -108,11 +110,6 @@ body {
     border-radius: 10px;
 }
 
-.work-row {
-    text-align: center;
-    font-size: 34px;
-}
-
 video {
     object-fit: cover;
     width: 100vw;
@@ -123,12 +120,19 @@ video {
     z-index: -1;
 }
 
-.work-row h1 {
+.work-h1 {
+    text-align: center;
+    font-size: 40px;
     color: orangered;
-    margin: 0 0 2rem 0;
+    margin: 2rem 0;
 }
 
 .table-img {
     height: 400px;
     width: 385px;
+}
+
+.followby {
+    text-decoration: none;
+    margin: 5px;
 }
